@@ -37,7 +37,12 @@ input{
 }
 
 input:focus{
-  border: solid 1px red;
+  outline: gray;
+  border: solid 1px #fca311;
+}
+
+input.error{
+  border: solid 2px red;
 }
 
 
@@ -64,6 +69,12 @@ button{
   max-width: 15rem;
   min-width:10rem;
   padding: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.single-color:hover{
+  transform: scale(1.1);
 }
 
 p{
@@ -74,5 +85,13 @@ p{
   font-size: 1rem;
   text-transform: uppercase;
   color: gray;
+}
+
+.color-light .weight{
+  color: white;
+}
+
+.color-light .color{
+  color: white;
 }
 
