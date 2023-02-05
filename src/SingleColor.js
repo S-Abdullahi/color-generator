@@ -2,8 +2,10 @@ import React from 'react';
 
 export default function SingleColor(){
     return (
-        <>
-            <h2>single Color</h2>
-        </>
+        <article className='single-color'>
+            <p className='weight'></p>
+            <p className='color'></p>
+            <p className='copy'></p>
+        </article>
     )
 }
